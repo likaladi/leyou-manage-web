@@ -284,7 +284,7 @@
             price : this.$format(price),
             ownSpec: JSON.stringify(skuSpecs),
             indexes,
-            stock: {stock}
+            stock: {stock}.stock
           }
         })
         // 发起请求
